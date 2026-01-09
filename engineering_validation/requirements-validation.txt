@@ -1,0 +1,30 @@
+# -----------------------------
+# Core (already have torch via RunPod image)
+# -----------------------------
+numpy<2
+scipy
+tqdm
+pillow
+matplotlib
+pandas
+ml-collections
+absl-py
+
+# -----------------------------
+# PyTorch C++ / CUDA extensions
+# -----------------------------
+ninja
+cmake
+pybind11
+
+# -----------------------------
+# TensorFlow stack (CPU-only!)
+# -----------------------------
+tensorflow-cpu>=2.12,<2.17
+tensorflow-datasets>=4.9
+tensorflow-gan>=2.1
+
+# -----------------------------
+# Utilities
+# -----------------------------
+gdown

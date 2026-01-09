@@ -19,3 +19,19 @@ dist/
 
 # Other
 *.DS_Store
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# RunPod / engineering validation outputs
+# -----------------------------
+exp/
+engineering_validation/logs/
+engineering_validation/artifacts/
+engineering_validation/results/
+
+# Large dataset stats (download at runtime)
+assets/stats/*.npz

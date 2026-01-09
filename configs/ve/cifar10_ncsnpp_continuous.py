@@ -56,4 +56,14 @@ def get_config():
   model.fourier_scale = 16
   model.conv_size = 3
 
+  # Engineering validation overrides
+  evaluate.begin_ckpt = 24
+  evaluate.end_ckpt = 24
+  evaluate.batch_size = 16
+  evaluate.enable_sampling = True
+  evaluate.num_samples = 64
+  evaluate.enable_loss = False
+  evaluate.enable_bpd = False
+  evaluate.bpd_dataset = 'test'
+    
   return config
