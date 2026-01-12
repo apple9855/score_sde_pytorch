@@ -25,7 +25,7 @@ echo "[4] Upgrade pip toolchain"
 pip install -U pip setuptools wheel
 
 echo "[5] Install Python requirements (torch already present)"
-pip install --no-cache-dir -r engineering_validation/requirements-validation.txt
+pip install -r engineering_validation/requirements-validation.txt
 
 echo "[6] TensorFlow GPU isolation (CPU-only enforcement test)"
 # Strong isolation: hide GPU from TF (does not affect torch running in other processes)

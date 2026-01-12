@@ -18,11 +18,18 @@ cmake
 pybind11
 
 # -----------------------------
-# TensorFlow stack (CPU-only!)
+# TensorFlow stack (CPU-only) -- pinned for tfgan compatibility
 # -----------------------------
-tensorflow-cpu>=2.12,<2.17
-tensorflow-datasets>=4.9
-tensorflow-gan>=2.1
+tensorflow-cpu==2.15.1
+tf-keras==2.15.0
+tensorflow-estimator==2.15.0
+tensorflow-probability==0.23.0
+tensorflow-gan==2.1.0
+
+# -----------------------------
+# JAX (CPU-only, for evaluation)
+# -----------------------------
+jax[cpu]==0.4.28
 
 # -----------------------------
 # Utilities

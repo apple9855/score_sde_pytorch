@@ -57,6 +57,7 @@ def get_config():
   model.conv_size = 3
 
   # Engineering validation overrides
+  evaluate = config.eval
   evaluate.begin_ckpt = 24
   evaluate.end_ckpt = 24
   evaluate.batch_size = 16
