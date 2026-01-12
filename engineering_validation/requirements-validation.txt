@@ -25,6 +25,7 @@ tf-keras==2.15.0
 tensorflow-estimator==2.15.0
 tensorflow-probability==0.23.0
 tensorflow-gan==2.1.0
+tensorflow-datasets>=4.9
 
 # -----------------------------
 # JAX (CPU-only, for evaluation)
