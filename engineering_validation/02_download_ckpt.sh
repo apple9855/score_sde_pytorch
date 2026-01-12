@@ -14,14 +14,14 @@ mkdir -p "${EXP_DIR}"
 # -----------------------------
 VE_DIR="${EXP_DIR}/ve/cifar10_ncsnpp_continuous"
 VE_CKPT="${VE_DIR}/checkpoints/checkpoint_24.pth"
-VE_GDRIVE_ID="1jFmheW6vFKUzvPCW2uCgaUskrGcomj8u"
+VE_GDRIVE_ID="1JInV8bPGy18QiIzZcS1iECGHCuXL6_Nz"
 
 # -----------------------------
 # VP-SDE: CIFAR-10 DDPM++
 # -----------------------------
 VP_DIR="${EXP_DIR}/vp/cifar10_ddpmpp_continuous"
 VP_CKPT="${VP_DIR}/checkpoints/checkpoint_26.pth"
-VP_GDRIVE_ID="1A9u9CrvUbxho6j3TjxVOtc-K9n701seT"
+VP_GDRIVE_ID="1ranuAMcmX45SBJ9PTToPACBwJYtrBjZn"
 
 # IMPORTANT: ensure checkpoints subdirs exist (Mode B)
 mkdir -p "${VE_DIR}/checkpoints"
