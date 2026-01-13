@@ -13,12 +13,15 @@ but to verify that:
 - sampling + evaluation (IS / FID / KID) runs successfully
 - results are reproducible in a clean GPU environment
 
+*Minor configuration adjustments were made only where required for execution compatibility
+(e.g., evaluation toggles and device placement),
+without altering the original algorithmic logic.*
 
 ---
 
 ## Scope and Principles
 
-- ✅ Use **official pretrained checkpoints**
+- ✅ Use [**official pretrained checkpoints**](https://drive.google.com/drive/folders/1tFmF_uh57O6lx9ggtZT_5LdonVK2cV-e)
 - ✅ Do **not modify core training / sampling logic**
 - ✅ Keep validation **lightweight** (CIFAR-10 only)
 - ❌ No retraining
@@ -34,9 +37,9 @@ This validation is designed as an **engineering sanity check**, not a benchmark.
 - OS: Ubuntu (containerized)
 - Python: 3.11
 - Frameworks:
-  - PyTorch (sampling)
-  - TensorFlow + TF-GAN (evaluation metrics)
-  - JAX (dataset / evaluation utilities, CPU-only)
+  - PyTorch: 2.x (CUDA-enabled, sampling on GPU)
+  - TensorFlow / TF-GAN: CPU-only (evaluation metrics)
+  - JAX: CPU-only (dataset and evaluation utilities)
 
 ---
 
