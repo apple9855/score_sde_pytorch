@@ -1,0 +1,3 @@
+run,IS,fid,kid,report_path,samples_path
+VE_ncsnpp_ckpt24,8.565605163574219,175.81884765625,nan,engineering_validation/artifacts/VE_ncsnpp_ckpt24/report_24.npz,engineering_validation/artifacts/VE_ncsnpp_ckpt24/exp/ve/cifar10_ncsnpp_continuous/eval/ckpt_24/samples_0.npz
+VP_ddpmpp_ckpt26,6.946599006652832,163.5532989501953,nan,engineering_validation/artifacts/VP_ddpmpp_ckpt26/report_26.npz,engineering_validation/artifacts/VP_ddpmpp_ckpt26/exp/vp/cifar10_ddpmpp_continuous/eval/ckpt_26/samples_0.npz

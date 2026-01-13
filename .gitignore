@@ -31,7 +31,8 @@ dist/
 exp/
 engineering_validation/logs/
 engineering_validation/artifacts/
-engineering_validation/results/
+# engineering_validation/results/ # <-- now tracked for showcase
+
 
 # Large dataset stats (download at runtime)
 assets/stats/*.npz
